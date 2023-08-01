@@ -6,7 +6,7 @@ function AtSymbolIcon() {
       viewBox="0 0 24 24"
       strokeWidth={1.5}
       stroke="currentColor"
-      className="h-8 w-8"
+      className="h-8 w-8 sm:h-9 sm:w-9 lg:h-10 lg:w-10"
     >
       <path
         strokeLinecap="round"
