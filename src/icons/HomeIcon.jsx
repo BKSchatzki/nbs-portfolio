@@ -1,4 +1,4 @@
-function HomeModern() {
+function HomeIcon() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -17,4 +17,4 @@ function HomeModern() {
   );
 }
 
-export default HomeModern;
+export default HomeIcon;

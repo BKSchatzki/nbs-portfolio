@@ -15,7 +15,7 @@ function Hero({ active }) {
       <img
         src="https://picsum.photos/200"
         alt="Hero Image"
-        className="m-4 rounded-xl"
+        className="mx-4 mb-8 rounded-xl"
       />
     </div>
   );

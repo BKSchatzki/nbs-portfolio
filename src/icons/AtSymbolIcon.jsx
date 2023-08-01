@@ -1,4 +1,4 @@
-function AtSymbol() {
+function AtSymbolIcon() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -16,4 +16,4 @@ function AtSymbol() {
   );
 }
 
-export default AtSymbol;
+export default AtSymbolIcon;

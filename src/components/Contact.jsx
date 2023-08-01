@@ -10,7 +10,7 @@ function Contact({ active }) {
       <h3 className="m-8 text-center text-xl font-semibold">Contact Me:</h3>
       <form
         action=""
-        className="m-4 mt-0 flex flex-col items-center justify-center gap-4"
+        className="mx-4 mb-8 flex flex-col items-center justify-center gap-4"
       >
         <label hidden htmlFor="name">
           Name:
@@ -38,7 +38,7 @@ function Contact({ active }) {
           placeholder="Message"
           id="message"
         />
-        <button className="w-5/6 rounded-lg bg-stone-900 px-4 py-2 font-semibold text-stone-100 outline-stone-100 transition duration-150 hover:bg-yellow-950 focus:outline-1 active:scale-95">
+        <button className="w-5/6 rounded-lg bg-stone-900 px-4 py-2 font-semibold text-stone-100 outline-stone-100 transition duration-150 hover:bg-amber-950 focus:outline-1 active:scale-95">
           Submit
         </button>
       </form>

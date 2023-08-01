@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import Hero from "./components/Hero";
+import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-import HomeModern from "./icons/HomeModern";
-import AtSymbol from "./icons/AtSymbol";
+import HomeIcon from "./icons/HomeIcon";
+import AboutIcon from "./icons/AboutIcon";
+import AtSymbolIcon from "./icons/AtSymbolIcon";
 
 function App() {
   const [activeTab, setActiveTab] = useState(0);
@@ -12,20 +14,27 @@ function App() {
     <div className="flex min-h-screen flex-col items-center justify-start pt-4 text-stone-900">
       <nav className="mb-4 flex gap-4">
         <button
-          className="rounded-lg outline-stone-100 transition duration-150 hover:text-yellow-950 focus:outline-1 active:scale-90"
+          className="rounded-lg outline-stone-100 transition duration-150 hover:text-amber-950 focus:outline-1 active:scale-90"
           onClick={() => setActiveTab(0)}
         >
-          <HomeModern />
+          <HomeIcon />
         </button>
         <button
-          className="rounded-lg outline-stone-100 transition duration-150 hover:text-yellow-950 focus:outline-1 active:scale-90"
+          className="rounded-lg outline-stone-100 transition duration-150 hover:text-amber-950 focus:outline-1 active:scale-90"
           onClick={() => setActiveTab(1)}
         >
-          <AtSymbol />
+          <AboutIcon />
+        </button>
+        <button
+          className="rounded-lg outline-stone-100 transition duration-150 hover:text-amber-950 focus:outline-1 active:scale-90"
+          onClick={() => setActiveTab(2)}
+        >
+          <AtSymbolIcon />
         </button>
       </nav>
       <Hero active={activeTab === 0} />
-      <Contact active={activeTab === 1} />
+      <About active={activeTab === 1} />
+      <Contact active={activeTab === 2} />
       <Footer />
     </div>
   );
