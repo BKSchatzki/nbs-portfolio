@@ -1,8 +1,12 @@
 import React from "react";
 
-function Hero() {
+function Hero({ active }) {
   return (
-    <div className="flex w-80 flex-col rounded-xl bg-stone-100/50">
+    <div
+      className={`flex w-80 flex-col rounded-xl bg-stone-100/75 shadow-2xl shadow-green-700 ${
+        active ? "" : "hidden"
+      }`}
+    >
       <h1 className="m-16 text-center text-2xl font-semibold">
         Nick B. Schatzki
         <hr className="mt-3 border border-stone-900" />
