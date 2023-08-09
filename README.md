@@ -4,7 +4,7 @@ A placeholder card site for a voice artist. Plans to embed SoundCloud files, and
 
 **Link to project:** http://nbs-portfolio.netlify.app
 
-![Nick B. Schatzki]([http://placecorgi.com/1200/650](https://res.cloudinary.com/djqsm7sz5/image/upload/v1691468692/bks-portfolio/nick-b-schatzki_i9v5yx.jpg))
+![Nick B. Schatzki](https://res.cloudinary.com/djqsm7sz5/image/upload/v1691468692/bks-portfolio/nick-b-schatzki_i9v5yx.jpg)
 
 ## How It's Made:
 
