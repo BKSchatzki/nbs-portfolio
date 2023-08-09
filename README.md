@@ -1,33 +1,31 @@
-# My Awesome Project
+# Nick B. Schatzki
 
-Write a short sentence or two about this project and what it does. Be sure to include a link and a screenshot (we're front end devs so we can actually see our work!).
+A placeholder card site for a voice artist. Plans to embed SoundCloud files, and implement a simple dashboard allowing the artist to modify their picture, bio, and SoundCloud links.
 
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
+**Link to project:** http://nbs-portfolio.netlify.app
 
-![alt tag](http://placecorgi.com/1200/650)
+![Nick B. Schatzki]([http://placecorgi.com/1200/650](https://res.cloudinary.com/djqsm7sz5/image/upload/v1691468692/bks-portfolio/nick-b-schatzki_i9v5yx.jpg))
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, Framework of choice
+**Tech used:** Vite, React, Tailwind, DaisyUI
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write _something_. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
+This was an exercise in trying to build something as quickly as possible. The thing I spent the most time on was tweaking media queries. I wanted the main card to fill up a 1080p screen, but not extend past it, and I got pretty darn close, all with Tailwind. The long-term goal of this site is to be able to build out card-style sites with personalization quickly.
 
 ## Optimizations
 
-_(optional)_
-
-You don't have to include this section but interviewers _love_ that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
+I added some transition effects when switching between the tabs. Generally, they are quite performant compared to the transition animations in my portfolio. There are two issues that need fixing: the background gradient on the body doesn't extend past the tops and the bottom of the page, and I don't like how the footer bounces around based on the size of the element. These are simple CSS fixes that will be implemented when I create the version with the dashboard.
 
 ## Lessons Learned:
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those _whoa this is awesome_ or _fuck yeah I did it!_ moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
+One specific standout lesson from building this out was that single-page info-and-contact sites can be rolled up very quickly. The process of building this site out was informative for workflow optimizations. However, I also figured that the overhead of React is not 100% necessary for something this simple, and it also comes with the additional SEO issues of presenting a blank DOM to indexers and web crawlers. It might be more pertinent to use something like Astro, or for something more extensive, a backend framework for React like Next.
 
 ## Examples:
 
 Take a look at these couple examples that I have in my own portfolio:
 
-**Palettable:** https://github.com/alecortega/palettable
+**Songstruct:** https://github.com/BKSchatzki/songstruct
 
-**Twitter Battle:** https://github.com/alecortega/twitter-battle
+**BK Chat:** https://github.com/BKSchatzki/bk-chat
 
-**Patch Panel:** https://github.com/alecortega/patch-panel
+**C Flat Run:** https://github.com/BKSchatzki/cflatrun-landingpage
