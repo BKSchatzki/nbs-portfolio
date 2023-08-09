@@ -22,7 +22,7 @@ One specific standout lesson from building this out was that single-page info-an
 
 ## Examples:
 
-Take a look at these couple examples that I have in my own portfolio:
+Take a look at some more examples in my portfolio:
 
 **Songstruct:** https://github.com/BKSchatzki/songstruct
 
