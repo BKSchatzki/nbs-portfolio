@@ -24,8 +24,10 @@ One specific standout lesson from building this out was that single-page info-an
 
 Take a look at some more examples in my portfolio:
 
-**Songstruct:** https://github.com/BKSchatzki/songstruct
-
 **BK Chat:** https://github.com/BKSchatzki/bk-chat
 
 **C Flat Run:** https://github.com/BKSchatzki/cflatrun-landingpage
+
+**Songstruct:** https://github.com/BKSchatzki/songstruct
+
+**SongStrudel:** https://github.com/BKSchatzki/songstrudel
