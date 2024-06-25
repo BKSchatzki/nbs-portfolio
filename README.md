@@ -1,6 +1,6 @@
 # Nick B. Schatzki
 
-A placeholder card site for a voice artist. Plans to embed SoundCloud files, and implement a simple dashboard allowing the artist to modify their picture, bio, and SoundCloud links.
+/* THIS IS A TEST COMMIT */ A placeholder card site for a voice artist. Plans to embed SoundCloud files, and implement a simple dashboard allowing the artist to modify their picture, bio, and SoundCloud links.
 
 **Link to project:** http://nbs-portfolio.netlify.app
 
